@@ -7,6 +7,9 @@ setup(
     install_requires=[
         "flask",
         "flask-pymongo",
-        "dynaconf"
+        "dynaconf",
+        "flask-bootstrap",
+        "mistune",
+        "flask-simplelogin"
     ]
 )

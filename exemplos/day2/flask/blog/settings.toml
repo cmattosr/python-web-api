@@ -3,5 +3,10 @@ mongo_uri = "mongodb://localhost:27017/blog"
 title = "Meu Blog com Flask"
 extensions = [
     "blog.database:configure",
-    "blog.commands:configure"
+    "blog.commands:configure",
+    "flask_bootstrap:Bootstrap",
+    "blog.views:configure",
+    "blog.plugins:configure",
+    "blog.auth:configure"
 ]
+secret_key = "e15fd07f5a0627cc48efc55f982bd03c4092056eb33d54a51505125640e968cf"
